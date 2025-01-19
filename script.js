@@ -4,7 +4,7 @@ const incrementButton = document.getElementById('incrementBtn');
 let counterValue = 0;
 incrementButton.addEventListener('click', () => {
   // Display an alert 
-  alert(`Current value: ${counterValue}`);
+  alert(' ${counterValue}`);
 counterValue++;
   // Update the paragraph
   counterParagraph.textContent = counterValue;
